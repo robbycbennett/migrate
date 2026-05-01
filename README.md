@@ -2,14 +2,14 @@
 
 Portable database migration shell script
 
-# 🧠 Design Philosophy
+# Design Philosophy
 
 * Simple to use and portable
 * Migrate up/down multiple times with one command
 * Review each migration if you want to
 * Extensible via the environment script
 
-# 📥 Installation
+# Installation
 
 Clone the repository, which includes the migrate script, and an example environment script for PostgreSQL
 
@@ -21,7 +21,7 @@ cp .env.postgresql.sh .env.sh
 edit .env.sh
 ```
 
-# 📚 Help
+# Help
 
 ```sh
 ./migrate.sh
